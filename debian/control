@@ -1,0 +1,14 @@
+Source: mongodb-erlang
+Section: unknown
+Priority: extra
+Maintainer: Dmitriy Budashny <dmitriy.budashny@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), erlang-base
+Standards-Version: 3.9.2
+Homepage: https://github.com/mongodb/mongodb-erlang
+#Vcs-Git: git://git.debian.org/collab-maint/mongodb-erlang.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/mongodb-erlang.git;a=summary
+
+Package: mongodb-erlang
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, bson-erlang
+Description: MongoDB driver for Erlang

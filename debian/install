@@ -1,0 +1,2 @@
+include/ usr/lib/erlang/lib/mongodb-erlang/
+ebin/ usr/lib/erlang/lib/mongodb-erlang/
